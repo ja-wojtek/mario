@@ -6,3 +6,38 @@
 }
 
 // Variables
+// Colors
+$skyColor: #33aaff;
+$pipeColor1: #66d500;
+$pipeColor2: #00aa00;
+$borderColor: black;
+$grassColor1: #00aa00;
+$grassColor2: #33aaff;
+$groundColor1: #cc5500;
+$groundColor: #ffaa99;
+$marioColor1: #cc2b00;
+$marioColor2: #998000;
+$marioColor3: #ffaa33;
+$cloudColor1: white;
+$cloudColor2: #33aaff;
+
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//Main scene
+.container {
+  display: grid;
+  grid-template-columns: repeat(256, 1fr);
+  grid-template-rows: repeat(240, 1fr);
+  width: 512px;
+  height: 480px;
+  border: 2px solid black;
+  background-color: $skyColor;
+}
