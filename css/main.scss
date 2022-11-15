@@ -6,6 +6,7 @@
   font-size: 8px;
 }
 
+
 // Variables
 // Colors
 $skyColor: #33aaff;
@@ -15,7 +16,8 @@ $borderColor: black;
 $grassColor1: #00aa00;
 $grassColor2: #33aaff;
 $groundColor1: #cc5500;
-$groundColor: #ffaa99;
+$groundColor2: #ffaa99;
+$groundColor3: black;
 $marioColor1: #cc2b00;
 $marioColor2: #998000;
 $marioColor3: #ffaa33;
@@ -26,21 +28,19 @@ $cloudColor2: #33aaff;
   width: 100vw;
   height: 100vh;
   // position: relative;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-//Main scene
+// Mario
 .mario-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  width: 120px;
-  height: 160px;
+  width: 240px;
+  height: 320px;
   border: 2px solid black;
-  background-color: $skyColor;
-  grid-template-areas: "mario-block";
 }
 
 .mario-color1 {
@@ -54,6 +54,8 @@ $cloudColor2: #33aaff;
 .mario-color3 {
   background-color: $marioColor3;
 }
+
+// Sky
 
 .sky-color {
   background-color: $skyColor;

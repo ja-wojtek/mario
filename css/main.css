@@ -8,17 +8,18 @@
 .scene {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mario-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  width: 120px;
-  height: 160px;
+  width: 240px;
+  height: 320px;
   border: 2px solid black;
-  background-color: #33aaff;
-  grid-template-areas: "mario-block";
 }
 
 .mario-color1 {
