@@ -25,6 +25,7 @@ $cloudColor1: white;
 $cloudColor2: #33aaff;
 $questionColor1: #d64e10;
 $questionColor2: #ffbf79;
+$questionColor3: black;
 
 .scene {
   width: 100vw;
@@ -45,16 +46,6 @@ $questionColor2: #ffbf79;
   border: 2px solid black;
 }
 
-.question-container {
-  display: grid;
-  background-color: $questionColor2;
-  grid-template-columns: repeat(15, 1fr);
-  grid-template-rows: repeat(15, 1fr);
-  width: 300px;
-  height: 300px;
-  border: 2px solid black;
-}
-
 .mario-color1 {
   background-color: $marioColor1;
 }
@@ -66,6 +57,25 @@ $questionColor2: #ffbf79;
 .mario-color3 {
   background-color: $marioColor3;
 }
+
+.question-container {
+  display: grid;
+  background-color: $questionColor2;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.question-color1 {
+  background-color: $questionColor1;
+}
+
+.question-color3 {
+  background-color: $questionColor3;
+}
+
 
 // Sky
 

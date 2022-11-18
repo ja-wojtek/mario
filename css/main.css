@@ -22,16 +22,6 @@
   border: 2px solid black;
 }
 
-.question-container {
-  display: grid;
-  background-color: #ffbf79;
-  grid-template-columns: repeat(15, 1fr);
-  grid-template-rows: repeat(15, 1fr);
-  width: 300px;
-  height: 300px;
-  border: 2px solid black;
-}
-
 .mario-color1 {
   background-color: #cc2b00;
 }
@@ -42,6 +32,24 @@
 
 .mario-color3 {
   background-color: #ffaa33;
+}
+
+.question-container {
+  display: grid;
+  background-color: #ffbf79;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.question-color1 {
+  background-color: #d64e10;
+}
+
+.question-color3 {
+  background-color: black;
 }
 
 .sky-color {
