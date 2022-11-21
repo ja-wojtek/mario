@@ -52,6 +52,23 @@
   background-color: black;
 }
 
+.question-container:hover {
+  -webkit-animation: question-animation 0.2s infinite;
+          animation: question-animation 0.2s infinite;
+}
+
 .sky-color {
   background-color: #33aaff;
+}
+
+@-webkit-keyframes question-animation {
+  to {
+    background-color: gold;
+  }
+}
+
+@keyframes question-animation {
+  to {
+    background-color: gold;
+  }
 }/*# sourceMappingURL=main.css.map */

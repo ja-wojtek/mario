@@ -26,6 +26,7 @@ $cloudColor2: #33aaff;
 $questionColor1: #d64e10;
 $questionColor2: #ffbf79;
 $questionColor3: black;
+$questionColor4: gold;
 
 .scene {
   width: 100vw;
@@ -76,9 +77,25 @@ $questionColor3: black;
   background-color: $questionColor3;
 }
 
+//question animation
+
+.question-container:hover {
+  animation: question-animation 0.2s infinite;
+}
+
 
 // Sky
 
 .sky-color {
   background-color: $skyColor;
+}
+
+@keyframes question-animation {
+  from {
+    //
+  }
+
+  to {
+    background-color: $questionColor4;
+  }
 }
